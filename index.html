@@ -6,14 +6,46 @@
     <title>Book for Thoughts</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="navigation">
-        <h1>Logoooo</h1>
-        <img src="/img/idea.png" width="100" height="80" alt="logo">
+    <!--
+    <nav>
+        <img src="img/logo.png" width="80" height="80" alt="logo">
+        <a href="#">Book For Thoughts</a>
+        <a href="#">About Us</a>
+        <a href="#">How to Donate</a>
+        <a href="#">Our Partners</a>
+        <a href="#">Join Us</a>
+    </nav>
+    -->
+    <div id="form-wrapper">
+        <div id="form-left">
+            <h1>One book a day, a million knowledge tomorrow</h1>
+            <img src="img/big picture.png" width="600" height="500" alt="a woman read a books">
+        </div>
+        <div id="form-right">
+            <h1>Tell us about yourself!</h1>
+            <div class="input-container">
+                <!--Full Name-->
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" class="input_field">
+            </div>
+            <div class="input-container">
+                <!--Field Email-->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="input_field">
+            </div>
+            <div class="input-container">
+                <!--Field Password-->
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" name="pwd" class="input_field">
+                <input type="submit" value="Register" id='input_submit' class='input_field'>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
