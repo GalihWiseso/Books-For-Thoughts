@@ -21,31 +21,26 @@
     </nav>
     -->
     <div id="form-wrapper">
-        <div id="form-left">
+        <div id="img-placeholder">
             <h1>One book a day, a million knowledge tomorrow</h1>
             <img src="img/big picture.png" width="600" height="500" alt="a woman read a books">
         </div>
-        <div id="form-right">
-            <h1>Tell us about yourself!</h1>
-            <div class="input-container">
-                <!--Full Name-->
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname" class="input_field">
-            </div>
-            <div class="input-container">
-                <!--Field Email-->
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" class="input_field">
-            </div>
-            <div class="input-container">
-                <!--Field Password-->
-                <label for="pwd">Password</label>
-                <input type="password" id="pwd" name="pwd" class="input_field">
-                <input type="submit" value="Register" id='input_submit' class='input_field'>
+        <div id="regis-form">
+            <h1 id="judul-form">Tell us about yourself!</h1>
+            <div class="container">
+                <form action="/action_page.php">
+                    <p>Full Name</p>
+                    <input type="text" id="fname" name="firstname"><br>
+                    <p>Email</p>
+                    <input type="email" id="email" name="email"><br>
+                    <p>Password</p>
+                    <input type="password" id="pwd" name="pwd"><br>
+                    <input type="submit" value="Send">
+
+                </form>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

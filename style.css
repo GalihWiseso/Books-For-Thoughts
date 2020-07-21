@@ -1,31 +1,31 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    font-family: quicksand;
+  }
+
+#form-wrapper{
+    display: flex;
 }
-body {
-    /* make the body full height*/
-    height: 100vh;
-    /* set our custom font */
-    font-family: 'Roboto',
-    sans-serif;
-    /* create a linear gradient*/
-    background-image: linear-gradient(to right, var(--body_gradient_left), var(--body_gradient_right));
-    display:flex;
+#img-placeholder{
+    flex: 50%;
+    padding: 10px;
+    
 }
-#form-wrapper {
-    width: 1000px;
-    height: 700px;
-    /* this will help us center it*/
-    margin:auto;
-    background-color: var(--form_bg);
-    border-radius: 50px;
-    /* make it a grid container*/
-    display: grid;
-    /* with two columns of same width*/
-    grid-template-columns: 1fr 1fr;
-    /* with a small gap in between them*/
-    grid-gap: 5vw;
-    /* add some padding around */
-    padding: 5vh 15px;
+
+#regis-form{
+    flex: 50%;
+  padding: 10px;
+}
+
+input{
+    background-color: #FA9047;
+    border: none;
+    width: 50%;
+}
+input[type=submit]{
+    width: 10%;
+}
+
+p{
+    font-family: raleway;
 }
