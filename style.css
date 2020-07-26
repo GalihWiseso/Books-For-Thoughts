@@ -2,26 +2,45 @@
     box-sizing: border-box;
     font-family: quicksand;
   }
+#web-title{
+    display: inline;
+}
+
+nav{
+    float: right;
+    
+}
+nav,a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;    
+    margin: 19px;
+}
 
 #form-wrapper{
     display: flex;
 }
+
 #img-placeholder{
     flex: 50%;
     padding: 10px;
-    
 }
 
 #regis-form{
     flex: 50%;
-  padding: 10px;
+    padding: 0px 95px 0px 70px;
+    margin-top: 75px;
+}
+#judul-form{
+    font-size: 30px;
 }
 
 input{
     background-color: #FA9047;
     border: none;
-    width: 50%;
+    width: 100%;
     height: 40px;
+    display: block;
 }
 input[type=submit]{
     width: 10%;
@@ -30,3 +49,8 @@ input[type=submit]{
 p{
     font-family: raleway;
 }
+
+#quotes{
+    font-size: 40px;
+}
+
