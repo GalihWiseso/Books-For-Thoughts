@@ -21,6 +21,7 @@ body {
 }
 
 .navbar .navbar__title h2 {
+  font-size: 18px;
   margin-left: 5px;
 }
 
@@ -53,6 +54,34 @@ body {
 
 .navbar .navbar__list a:hover {
   background-color: #fafafa;
+}
+
+.container {
+  display: flex;
+  min-height: 80vh;
+  padding: 0 30px;
+}
+
+.container .left-container,
+.container .right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.container .left-container {
+  align-items: center;
+  padding: 20px;
+}
+
+.container .left-container .left-container__quotes {
+  font-size: 48px;
+  width: 100%;
+}
+
+.container .left-container img {
+  width: 80%;
 }
 
 /* nav {
