@@ -1,56 +1,127 @@
 * {
-    box-sizing: border-box;
-    font-family: quicksand;
-  }
-#web-title{
-    display: inline;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
 
-nav{
-    float: right;
-    
-}
-nav,a{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;    
-    margin: 19px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-#form-wrapper{
-    display: flex;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 30px;
 }
 
-#img-placeholder{
-    flex: 50%;
-    padding: 10px;
+.navbar .navbar__title {
+  display: flex;
+  align-items: center;
 }
 
-#regis-form{
-    flex: 50%;
-    padding: 0px 95px 0px 70px;
-    margin-top: 75px;
-}
-#judul-form{
-    font-size: 30px;
+.navbar .navbar__title h2 {
+  font-size: 18px;
+  margin-left: 5px;
 }
 
-input{
-    background-color: #FA9047;
-    border: none;
-    width: 100%;
-    height: 40px;
-    display: block;
-}
-input[type=submit]{
-    width: 10%;
+.navbar .navbar__list {
+  display: flex;
+  align-items: center;
 }
 
-p{
-    font-family: raleway;
+.navbar .navbar__list a {
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  margin-right: 5px;
+  text-decoration: none;
 }
 
-#quotes{
-    font-size: 40px;
+.navbar .navbar__list a:last-child {
+  margin-right: 0;
 }
 
+.navbar .navbar__list .list__button {
+  border: 1px solid #fa9047;
+  border-radius: 5px;
+}
+
+.navbar .navbar__list .list__button:hover {
+  background-color: #fa9047;
+  color: white;
+}
+
+.navbar .navbar__list a:hover {
+  background-color: #fafafa;
+}
+
+.container {
+  display: flex;
+  min-height: 80vh;
+  padding: 0 30px;
+}
+
+.container .left-container,
+.container .right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.container .left-container {
+  align-items: center;
+  padding: 10px;
+}
+
+.container .left-container .left-container__quotes {
+  font-size: 40px;
+  width: 100%;
+}
+
+.container .left-container img {
+  width: 80%;
+}
+
+.container .right-container {
+  padding: 30px;
+}
+
+.container .right-container .right-container__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group .form-group__label {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group .form-group__input {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #fcbd93;
+}
+
+.form__button {
+  padding: 15px 25px;
+  margin: 20px 0;
+  background-color: #fa9047;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #fe812d;
+}
