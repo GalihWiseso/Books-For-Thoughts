@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -72,7 +72,7 @@ body {
 
 .container .left-container {
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .container .left-container .left-container__quotes {
@@ -89,6 +89,7 @@ body {
 }
 
 .container .right-container .right-container__title {
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 400;
 }
@@ -98,6 +99,7 @@ body {
 }
 
 .form-group .form-group__label {
+  font-family: "Raleway", sans-serif;
   display: block;
   margin-bottom: 5px;
 }
