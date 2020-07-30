@@ -76,7 +76,7 @@ body {
 }
 
 .container .left-container .left-container__quotes {
-  font-size: 48px;
+  font-size: 40px;
   width: 100%;
 }
 
@@ -84,51 +84,42 @@ body {
   width: 80%;
 }
 
-/* nav {
-  float: right;
+.container .right-container {
+  padding: 30px;
 }
 
-nav,
-a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-  margin: 19px;
+.container .right-container .right-container__title {
+  font-size: 26px;
+  font-weight: 400;
 }
 
-#form-wrapper {
-  display: flex;
+.form-group {
+  margin: 20px 0;
 }
 
-#img-placeholder {
-  flex: 50%;
-  padding: 10px;
-}
-
-#regis-form {
-  flex: 50%;
-  padding: 0px 95px 0px 70px;
-  margin-top: 75px;
-}
-#judul-form {
-  font-size: 30px;
-}
-
-input {
-  background-color: #fa9047;
-  border: none;
-  width: 100%;
-  height: 40px;
+.form-group .form-group__label {
   display: block;
-}
-input[type="submit"] {
-  width: 10%;
+  margin-bottom: 5px;
 }
 
-p {
-  font-family: raleway;
+.form-group .form-group__input {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #fcbd93;
 }
 
-#quotes {
-  font-size: 40px;
-} */
+.form__button {
+  padding: 15px 25px;
+  margin: 20px 0;
+  background-color: #fa9047;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #fe812d;
+}
